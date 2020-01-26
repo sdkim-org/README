@@ -114,7 +114,7 @@ Password: <비밀번호>
 
 - 어느정도 기다리고 나면, 위와 같이 image 가 업로드된 주소가 포함된 img 태그를 얻게 됩니다.
 
-- 위의 태그를 통채로 복사 후 이곳에 붙여 넣으면 됩니다.
+- 위의 태그를 통채로 복사 후 md 파일의 원하느 위치에 붙여 넣으면 됩니다.
 
 - image 가 업로드 된 주소는 절대경로이기 때문에, 원본 이미지를 따로 업로드 할 필요가 없습니다.
 
@@ -126,10 +126,10 @@ Password: <비밀번호>
 
   ```html
   <table>
-  	<tr>
-  		<td><img width="374" alt="sdk-typora05" src="https://user-images.githubusercontent.com/13485924/73137877-16d19380-40a0-11ea-9ba6-cf6c04ac3d1b.png"></td>
+    <tr>
+      <td><img width="374" alt="sdk-typora05" src="https://user-images.githubusercontent.com/13485924/73137877-16d19380-40a0-11ea-9ba6-cf6c04ac3d1b.png"></td>
       <td><img width="374" alt="sdk-typora06" src="https://user-images.githubusercontent.com/13485924/73137876-16d19380-40a0-11ea-8456-30d1b0c272be.png"></td>
-  	</tr>
+    </tr>
   </table>
   ```
 
